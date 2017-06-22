@@ -1,0 +1,46 @@
+start = '''
+You wake up one morning and notice that out of all your friends, you are the only one without a prom date.
+"Should I snag a date" you wonder.
+'''
+
+print(start)
+
+print ("Do you want to know your ideal prom date?")
+print(" 'yes' or 'no'")
+user_input = input()
+if user_input =="no":
+    print("Do you want a date to prom? 'yes' or 'no'")
+    user_input = input()
+    if user_input =="no":
+        print("SELL YOUR TICKET! Go somewhere you'll actually have fun! Going to prom isn't the end of the world.")
+if user_input == "yes":
+    print("What is your ideal date? A. Movie B. Beach C. Restuarant D. Can't Decide")
+    print ("Type 'A' to go A or 'B' to go B or 'C' to go C or 'D' to go D")# Asking
+user_input = input()
+if user_input == "A":
+    print("Do you like___ guys? A. tall B. short C. average D. midgit")
+if user_input == "B":
+    print("Do you like___ guys? A. tall B. short C. average D. midgit")
+if user_input == "C":
+    print("Do you like___ guys? A. tall B. short C. average D. midgit")
+if user_input == "D":
+    print("Do you like___ guys? A. tall B. short C. average D. midgit")
+user_input = input()
+if user_input == "A":
+    print ("what type of relationship are you into? A. Long term B. Short term C.Open D. No relationship")
+    print ("Type 'A' to go A or 'B' to go B or 'C' to go C or 'D' to go D")
+if user_input == "B":
+    print ("what type of relationship are you into? A. Long term B. Short term C.Open D. No relationship")
+    print ("Type 'A' to go A or 'B' to go B or 'C' to go C or 'D' to go D")
+if user_input == "C":
+        print ("what type of relationship are you into? A. Long term B. Short term C.Open D. No relationship")
+        print ("Type 'A' to go A or 'B' to go B or 'C' to go C or 'D' to go D")
+if user_input == "D":
+    print ("what type of relationship are you into? A. Long term B. Short term C.Open D. No relationship")
+    print ("Type 'A' to go A or 'B' to go B or 'C' to go C or 'D' to go D")
+user_input = input()
+print("Great! We've calculated who your ideal prom date should be from the answer you provided :")
+import random
+
+foo = ['Ryan Reynolds', 'Kevin Hart', 'Zac Efron', 'Danny Devito', 'Shaquille O Neal', 'Liam Hemsworth','Will Poulter','Young Leonardo Dicaprio','Jay Park','Drake']
+print(random.choice(foo))
